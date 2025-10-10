@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-> 🚀 **Automated investment Robot** that grows your balance.**
+> 🚀 **Automated investment Robot that grows your balance.**
 
 ---
 

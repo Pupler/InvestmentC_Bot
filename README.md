@@ -6,8 +6,6 @@
 
 > 🚀 **Automated investment Robot that grows your balance.**
 
----
-
 ## 🚀 Features
 
 - **+5% to your balance every 30 seconds** — automatic compound growth  
@@ -15,15 +13,11 @@
 - **Simple and intuitive interface** — easy to use for everyone  
 - **Secure operations** — stable and safe investment simulation  
 
----
-
 ## 📈 How It Works
 
 1. **Start** with your deposit
 2. **Watch** your balance increase by **+5.0% every 30 seconds**  
 3. **Withdraw** your profits at minimal sum of 300 dollars
-
----
 
 ## 🛠️ Installation
 

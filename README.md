@@ -6,7 +6,7 @@
 
 > 🚀 **Automated investment Robot that grows your balance.**
 
-## 🚀 Features
+## ⚙️ Features
 
 - **+5% to your balance every 30 seconds** — automatic compound growth  
 - **Real-time balance updates** — watch your money grow live  
@@ -19,7 +19,7 @@
 2. **Watch** your balance increase by **+5.0% every 30 seconds**  
 3. **Withdraw** your profits at minimal sum of 300 dollars
 
-## 🛠️ Installation
+## 🚀 Installation
 
 ```bash
 # Clone repository

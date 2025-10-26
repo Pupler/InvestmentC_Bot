@@ -9,12 +9,14 @@ class My_SQL:
         self.create_database()
         self.create_tables()
 
+
     def connect(self):
         try:
             self.connection = mysql.connector.connect(**MYSQL_CONFIG)
             print("✅ MySQL connected!")
         except Exception as e:
             print(f"❌ MySQL NOT connected! \nThe following error occured while connecting: {e}")
+
 
     def create_database(self):
         # Get cursor
@@ -28,6 +30,7 @@ class My_SQL:
         
         except Exception as e:
             print(f"❌ Database NOT created! \nThe following error occured while creating database: {e}")
+
 
     def create_tables(self):
         cursor = self.connection.cursor()
@@ -59,6 +62,23 @@ class My_SQL:
         except Exception as e:
             print(f"❌ Tables NOT created! \nThe following error occured while creating tables: {e}")
 
+
+    def add_user(self, telegram_id):
+        cursor = self.connection.cursor()
+
+        try:
+            cursor.execute(
+                "INSERT IGNORE INTO users (telegram_id) VALUES (%s)",
+                (telegram_id,)
+            )
+            self.connection.commit()
+            print("User was successfully added!")
+            return True
+        except Exception as e:
+            print(f"Error occured while adding user to the database")
+            return False
+        finally:
+            cursor.close()
 
 
 

@@ -16,6 +16,8 @@ db = My_SQL()
 
 @dp.message(Command("start"))
 async def start(message: Message):
+    db.add_user(message.from_user.id)
+    
     photo = FSInputFile(IMAGES["welcome_photo"])
 
     welcome_text = (

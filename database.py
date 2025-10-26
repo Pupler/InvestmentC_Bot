@@ -75,10 +75,27 @@ class My_SQL:
             print("User was successfully added!")
             return True
         except Exception as e:
-            print(f"Error occured while adding user to the database")
+            print(f"Error occured while adding user to the database: {e}")
             return False
         finally:
             cursor.close()
+
+    
+    def get_user_profile(self, telegram_id):
+        cursor = self.connection.cursor()
+
+        try:
+            cursor.execute(
+                "SELECT * FROM users WHERE telegram_id = %s",
+                (telegram_id,)
+            )
+            return cursor.fetchone()
+        except Exception as e:
+            print(f"Error occured whilte getting user profile: {e}")
+            return None
+        finally:
+            cursor.close()
+
 
 
 

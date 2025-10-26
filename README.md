@@ -4,18 +4,14 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-> 🚀 **Automated investment Robot that grows your balance.**
+> **Automated investment Robot that grows your balance.**
 
----
-
-## 🚀 Features
+## ⚙️ Features
 
 - **+5% to your balance every 30 seconds** — automatic compound growth  
 - **Real-time balance updates** — watch your money grow live  
 - **Simple and intuitive interface** — easy to use for everyone  
 - **Secure operations** — stable and safe investment simulation  
-
----
 
 ## 📈 How It Works
 
@@ -23,9 +19,7 @@
 2. **Watch** your balance increase by **+5.0% every 30 seconds**  
 3. **Withdraw** your profits at minimal sum of 300 dollars
 
----
-
-## 🛠️ Installation
+## 🚀 Installation
 
 ```bash
 # Clone repository

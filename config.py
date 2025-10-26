@@ -15,7 +15,7 @@ START_BALANCE = 0.0 # Start balance of user
 # Images
 IMAGES = {
     "welcome_photo": "images/welcome.png",
-    "balance_photo": "images/balance.png", 
+    "profile_photo": "images/profile.png", 
     "deposit_photo": "images/deposit.png",
     "withdraw_photo": "images/withdraw.png",
     "growth_photo": "images/growth.png",

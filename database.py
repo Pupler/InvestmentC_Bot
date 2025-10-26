@@ -82,7 +82,7 @@ class My_SQL:
 
     
     def get_user_profile(self, telegram_id):
-        cursor = self.connection.cursor()
+        cursor = self.connection.cursor(dictionary=True)
 
         try:
             cursor.execute(
@@ -91,7 +91,7 @@ class My_SQL:
             )
             return cursor.fetchone()
         except Exception as e:
-            print(f"Error occured whilte getting user profile: {e}")
+            print(f"Error occured while getting user profile: {e}")
             return None
         finally:
             cursor.close()

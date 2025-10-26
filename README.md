@@ -8,10 +8,10 @@
 
 ## ⚙️ Features
 
-- **+5% to your balance every 30 seconds** — automatic compound growth  
-- **Real-time balance updates** — watch your money grow live  
+- **+5% to your balance every 30 seconds** — automatic compound growth (🚧 Under Development)
+- **Real-time balance updates** — watch your money grow live (🚧 Under Development)
 - **Simple and intuitive interface** — easy to use for everyone  
-- **Secure operations** — stable and safe investment simulation  
+- **Secure operations** — stable and safe investment simulation (🚧 Under Development)
 
 ## 📈 How It Works
 

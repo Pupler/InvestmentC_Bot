@@ -5,7 +5,7 @@ from aiogram.filters import Command
 
 import asyncio
 
-from keyboards import main_kb
+from keyboards import main_kb, invest_kb
 from config import BOT_TOKEN, IMAGES, GROWTH_INTERVAL, GROWTH_RATE
 from database import My_SQL
 
@@ -57,6 +57,28 @@ async def show_user_profile(message: Message):
         photo=photo,
         caption=profile_text,
         reply_markup=main_kb,
+        parse_mode="HTML"
+    )
+
+
+@dp.message(lambda message: message.text == "💵 Invest")
+async def invest_money(message: Message):
+
+    photo = FSInputFile(IMAGES["deposit_photo"])
+
+    invest_text = (
+        "💰 <b>Investment Plans</b>\n\n"
+        "💎 <b>Choose your investment amount:</b>\n"
+        "• $10 - Basic plan\n" 
+        "• $50 - Pro plan\n"
+        "• $100 - Premium plan\n\n"
+        "📈 <i>All investments grow automatically!</i>"
+    )
+
+    await message.answer_photo(
+        photo=photo,
+        caption=invest_text,
+        reply_markup=invest_kb,
         parse_mode="HTML"
     )
         

@@ -11,7 +11,7 @@
 <img width="373" height="745" alt="grafik" src="https://github.com/user-attachments/assets/a8c92474-465f-4121-bed0-20946dbf419a" />
 <img width="375" height="744" alt="grafik" src="https://github.com/user-attachments/assets/0b93e48b-90e4-4f25-a67d-76b815a46008" />
 
-## ⚙️ Features
+## ✨ Features
 
 - **+5% to your balance every 30 seconds** — automatic compound growth (🚧 Under Development)
 - **Real-time balance updates** — watch your money grow live (🚧 Under Development)
